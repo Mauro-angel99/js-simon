@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#time {
+    font-size: 100px;
+}
+
+.paragraph {
+    font-size: 50px;
+}
+
+.number {
+    display: flex;
+    justify-content: space-around;
+    font-size: 80px;
+}
+
+.hidden {
+    display: none;
+}
